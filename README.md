@@ -43,7 +43,7 @@ Visit http://127.0.0.1:8000
 
 ```bash
 mkdir -p "$HOME/models/streaming-whisper"
-export WHISPER_MODEL_NAME="tiny.en"
+export WHISPER_MODEL_NAME="large"
 export BYPASS_AUTHORIZATION="true"
 export ENABLED_MODULES="streaming_whisper"
 export WHISPER_MODEL_PATH="$HOME/models/streaming-whisper"
